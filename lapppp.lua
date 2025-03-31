@@ -13,5 +13,5 @@ local LocalPlayer = Players.LocalPlayer
 
 
 LocalPlayer.OnTeleport:Connect(function(State)
-        QueueOnTeleport("https://raw.githubusercontent.com/ThemPrices/meat/refs/heads/main/lapppp.lua")
+        QueueOnTeleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/ThemPrices/meat/refs/heads/main/lapppp.lua'))()")
 end)
